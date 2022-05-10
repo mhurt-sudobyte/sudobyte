@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-dark" style="--bs-bg-opacity: .1;">
       <div class=" container-fluid">
         <a class="navbar-brand logo" href="#">
-          <img id="logo" src="images/logo_2_text.png" alt="">
+          <img id="head_logo" src="images/logo_2_text.png" alt="">
         </a>
         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-solid fa-bars"></i>
@@ -58,7 +58,7 @@
     <section id="processes">
       <div class="container">
         <div class="row">
-          <h1 class="d-flex justify-content-center">— Our Processes —</h1>
+          <h1 class="section_headers d-flex justify-content-center">— Our Processes —</h1>
           <div class="d-flex justify-content-center col-md-12 process_img">
             <img src="images/processes_img.png" alt="">
           </div>
@@ -110,5 +110,56 @@
       </div>
     </section>
   <!-- ########## END OF PROCESSES SECTION ########## -->
-  </body>
-</html>
+
+  <!-- ########## START OF CONTACT SECTION ########## -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <h1 class="section_headers d-flex justify-content-center">— Contact —</h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center" action="contact_form.php">
+        <div class="col-md-4">
+          <label for="First" class="form-label">First</label>
+          <input type="text" name="FNAME" id="FNAME" class="form-control" placeholder="First name" aria-label="First">
+        </div>
+        <div class="col-md-4">
+          <label for="Last" class="form-label">Last</label>
+          <input type="text" class="form-control" name="LNAME" id="LNAME" placeholder="Last name" aria-label="Last">
+        </div>
+        <div class="col-md-8 form_input_bars">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" name="EMAIL" id="EMAIL" placeholder="Email">
+        </div>
+        <div class="col-md-8 form_input_bars">
+          <label for="company" class="form-label">Company</label>
+          <input type="text" class="form-control" name="COMPANY" id="COMPANY" placeholder="Company Name">
+        </div>
+        <div class="col-md-8 form_input_bars">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" name="MESSAGE" id="MESSSAGE" placeholder="Your Message" rows="6"></textarea>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center row">
+        <div class="btn_column col-md-2">
+          <input class="btn" type="submit" value="Submit" name="">
+        </div>
+      </div>
+    </section>
+
+  <!-- ########## END OF CONTACT SECTION ########## -->
+
+  <!-- ########## START OF FOOTER ########## -->
+    <section id="footer">
+      <div class="container-fluid bg-dark">
+        <div class="navbar-brand">
+          <img id="foot_logo"src="images/logo_2_text.png" alt="">
+        </div>
+          <div class="d-flex justify-content-end">
+            <p>©2022 SudoByte Software. All rights reserved.</p>
+          </div>
+      </div>
+    </section>
+  <!-- ########## END OF FOOTER ########## -->
+</body>

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-#logo{
+#head_logo{
   height: 20%;
   width: 20%;
 }
@@ -32,11 +32,36 @@
   background-color: #F6F6F6;
   margin-top: 1%;
 }
-#processes h1{
+.section_headers{
   margin-top: 5%;
   margin-bottom: 5%;
   color:#FF792C !important;
 }
 .step_content{
   margin-top: 5%;
+}
+.form_input_bars{
+  margin-top: 1%;
+}
+.btn{
+  background-color: #FF792C !important;
+  color: #ffffff !important;
+  font-size: 150%;
+  width: 100%;
+}
+.btn_column{
+  margin-top: 5%;
+}
+#footer{
+  margin-top: 5%;
+}
+#footer p{
+  color:#ffffff !important;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+#foot_logo{
+  margin-top: 2%;
+  height:5% !important;
+  width: 5% !important;
 }
