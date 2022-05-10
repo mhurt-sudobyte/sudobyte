@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#logo{
+  height: 20%;
+  width: 20%;
+}
+.jumbotron{
+  background-image: url('../images/place_holder_navbar_picture.png');
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  border-radius: 0px !important;
+}
+.nav-link{
+  color: #ffffff !important;
+}
