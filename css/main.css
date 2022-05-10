@@ -17,3 +17,14 @@
 .nav-link{
   color: #ffffff !important;
 }
+.nav-link:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar-toggler .fa{
+  color: #ffffff !important;
+  font-size:50px !important;
+}
+#header ul{
+  margin-right: 2%;
+}
