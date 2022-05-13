@@ -9,7 +9,7 @@
   width: 20%;
 }
 .jumbotron{
-  background-image: url('../images/place_holder_navbar_picture.png');
+  background-image: url('../images/navbar_background.jpg');
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -97,7 +97,10 @@
 }
 
 .imgabout{
-  margin-top:10%;
+  margin-top:20% !important;
+  height: 80% !important;
+  width: 80% !important;
+  border-radius: 2%;
 }
 
 .abouttxt{
@@ -177,8 +180,13 @@ margin-right:5%;
 }
 
 .servicesPicture{
-  margin-top:20%;
-  margin-left: 10%;
+  margin-top:12%;
+  margin-left: 20%;
+  height: 60vh;
+  width:80vh;
+}
+.servicesPicture img{
+  border-radius: 2%;
 }
 
 .aboutustxt{
