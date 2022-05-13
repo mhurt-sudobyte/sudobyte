@@ -1,22 +1,73 @@
 <<<<<<< HEAD
 
-/* .users{
-  height:20%;
-  width:20%;
-  opacity: 70%;
+*{
+  margin: 0;
+  padding: 0;
+}
+#head_logo{
+  height: 20%;
+  width: 20%;
+}
+.jumbotron{
+  background-image: url('../images/place_holder_navbar_picture.png');
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  border-radius: 0px !important;
+}
+.nav-link{
+  color: #ffffff !important;
+}
+.nav-link:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar-toggler .fa{
+  color: #ffffff !important;
+  font-size:50px !important;
+}
+#header ul{
+  margin-right: 2%;
+}
+#processes{
+  background-color: #F6F6F6;
+  margin-top: 1%;
+}
+.section_headers{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color:#FF792C !important;
+}
+.step_content{
+  margin-top: 5%;
+}
+.form_input_bars{
+  margin-top: 1%;
+}
+.btn{
+  background-color: #FF792C !important;
+  color: #ffffff !important;
+  font-size: 150%;
+  width: 100%;
+}
+.btn_column{
+  margin-top: 5%;
+}
+#footer{
+  margin-top: 5%;
+}
+#footer p{
+  color:#ffffff !important;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+#foot_logo{
+  margin-top: 2%;
+  height:5% !important;
+  width: 5% !important;
 }
 
-.micro{
-  height:80%;
-  width:20%;
-  opacity: 70%:
-}
-
-.rotate{
-  height:20%;
-  width:20%;
-  opacity: 70%;
-} */
 .top_icon{
   height: 20%;
   width:20%;
@@ -132,72 +183,3 @@ margin-right:5%;
 
 .aboutustxt{
   margin-right: 10%;
-=======
-*{
-  margin: 0;
-  padding: 0;
-}
-#head_logo{
-  height: 20%;
-  width: 20%;
-}
-.jumbotron{
-  background-image: url('../images/place_holder_navbar_picture.png');
-  height: 80vh;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  border-radius: 0px !important;
-}
-.nav-link{
-  color: #ffffff !important;
-}
-.nav-link:hover{
-  font-weight: bold;
-  text-decoration: underline;
-}
-.navbar-toggler .fa{
-  color: #ffffff !important;
-  font-size:50px !important;
-}
-#header ul{
-  margin-right: 2%;
-}
-#processes{
-  background-color: #F6F6F6;
-  margin-top: 1%;
-}
-.section_headers{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  color:#FF792C !important;
-}
-.step_content{
-  margin-top: 5%;
-}
-.form_input_bars{
-  margin-top: 1%;
-}
-.btn{
-  background-color: #FF792C !important;
-  color: #ffffff !important;
-  font-size: 150%;
-  width: 100%;
-}
-.btn_column{
-  margin-top: 5%;
-}
-#footer{
-  margin-top: 5%;
-}
-#footer p{
-  color:#ffffff !important;
-  margin-right: 2%;
-  margin-bottom: 2%;
-}
-#foot_logo{
-  margin-top: 2%;
-  height:5% !important;
-  width: 5% !important;
->>>>>>> a5eddce7f75eee26ce69ace9d4373376834aac7b
-}
