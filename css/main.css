@@ -20,11 +20,12 @@
   height: 20%;
   width:20%;
   opacity: 50%;
+  margin-top: 20%;
 }
 
 .buttons{
   height: auto;
-  width: 25%;
+  width: auto;
   background-color: orange;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
@@ -35,7 +36,7 @@
 }
 
 .users{
-  margin-top: 4%;
+  margin-top: 24%;
 }
 
 .AboutUs{
@@ -55,8 +56,8 @@
 .pics{
 margin-top: 5%;
 position: relative;
-
 color: white;
+width:120%;
 }
 
 .LeadershipTeam{
@@ -79,14 +80,19 @@ color: white;
 }
 .noah{
 position: absolute;
-top: 89%;
-left: 50%;
+top: 94%;
+left:50%;
+height:16%;
+width:300px;
 transform: translate(-50%, -50%);
-  background-color: rgba(0,0,0,0.5);
+
+
+
 }
 
 .noahbox{
-
+  background-color: rgba(0,0,0,0.5);
+  width:120%;
 
 }
 
@@ -102,4 +108,27 @@ transform: translate(-50%, -50%);
 .noahbox2{
   margin-top: -17px;
   font-size: 15px;
+  right:50%;
+  width:120%;
+  background-color: rgba(0,0,0,0.5);
+  border-bottom-left-radius:20%;
+  border-bottom-right-radius:20%;
+
+}
+.container1{
+margin-right:5%;
+
+}
+
+.paragraph{
+  margin-left: 15%;
+}
+
+.servicesPicture{
+  margin-top:20%;
+  margin-left: 10%;
+}
+
+.aboutustxt{
+  margin-right: 10%;
 }
