@@ -10,7 +10,7 @@
 }
 .jumbotron{
   background-image: url('../images/navbar_background.jpg');
-  height: 40vh;
+  height: 52vh;
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -88,13 +88,13 @@
   background-color:#FF792C;
 }
 .lmbtn{
-  margin-top: 6%;
+  margin-top: 17%;
 }
 .osbtn{
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 .probtn{
-  margin-top: 3%;
+  margin-top: 16%;
 }
 
 .users{
