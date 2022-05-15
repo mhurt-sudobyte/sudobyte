@@ -163,6 +163,8 @@ transform: translate(-50%, -50%);
 
 .services{
   margin-top: 20%;
+  margin-right: 20%;
+  margin-left: 10%;
   color:#FF792C;
   background-color:white;
 }
@@ -191,13 +193,18 @@ margin-right:5%;
 
 .servicesPicture{
   margin-top:12%;
+  margin-bottom:12%;
   margin-left: 20%;
   height: 60vh;
   width:80vh;
+
 }
+
 .servicesPicture img{
   border-radius: 2%;
 }
 
 .aboutustxt{
   margin-right: 10%;
+  margin-left: 10%;
+}
