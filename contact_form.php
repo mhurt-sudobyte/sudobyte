@@ -9,7 +9,7 @@
   $email_subject = "$fname $lname — $company";
   $email_body = "$message";
 
-  $to = "sudobtyesolutions@sudobtye.com"
+  $to = "sudobytesoftware@gmail.com"
 
   mail($to,$email_subject,email_body)
 
