@@ -186,7 +186,9 @@ transform: translate(-50%, -50%);
 margin-right:5%;
 
 }
-
+.container1 img{
+  height:70vh;
+}
 .paragraph{
   margin-left: 15%;
 }
