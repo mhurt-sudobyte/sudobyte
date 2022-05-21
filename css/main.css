@@ -112,6 +112,13 @@
   border-radius: 2%;
 }
 
+#services .imgabout{
+  margin-top:20% !important;
+  height: 80% !important;
+  width: 80% !important;
+  border-radius: 2%;
+}
+
 .abouttxt{
   color:#FF792C;
   margin-top:10%;
