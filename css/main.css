@@ -133,9 +133,11 @@
 margin-top: 5%;
 position: relative;
 color: white;
-width:120%;
+width:110%;
 }
-
+.picture_margin{
+  margin-top: 5% !important;
+}
 .LeadershipTeam{
   background-color:white;
 }
@@ -168,8 +170,7 @@ transform: translate(-50%, -50%);
 
 .noahbox{
   background-color: rgba(0,0,0,0.5);
-  width:120%;
-
+  width:110%;
 }
 
 .services{
@@ -184,13 +185,13 @@ transform: translate(-50%, -50%);
   background-color:white;
 }
 .noahbox2{
-  margin-top: -17px;
+  margin-top: -16px;
   font-size: 15px;
   right:50%;
-  width:120%;
+  width:110%;
   background-color: rgba(0,0,0,0.5);
-  border-bottom-left-radius:20%;
-  border-bottom-right-radius:20%;
+  /* border-bottom-left-radius:20%;
+  border-bottom-right-radius:20%; */
 
 }
 .container1{
