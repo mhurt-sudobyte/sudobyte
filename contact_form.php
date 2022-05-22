@@ -20,13 +20,18 @@ $mailer->setSubject("$fname $lname, $company");
 $mailer->addTo("sudobytesolutions@sudobyte.com");
 $mailer->addContent("text/plain","$message");
 
-$sendgrid = new \SendGrid("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");
+$sendgrid = new \SendGrid(file_get_contents(
+     "api"
+    ):
 try {
     $response = $sendgrid->send($mailer);
       echo 'We got your email, and will contact you shortly';
 } catch (Exception $e) {
     echo 'Caught exception: '. $e->getMessage() ."\n";
+
+
 }
+
 
 
  ?>
