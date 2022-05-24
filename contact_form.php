@@ -13,8 +13,8 @@
 
   $to = "sudobytesoftware@gmail.com";
 
-
-$mailer = new \SendGrid\Mail\Mail();
+  mail($to, 'test subject', 'test message');
+/*$mailer = new \SendGrid\Mail\Mail();
 $mailer->setFrom("sudobytesolutions@sudobyte.com", "$email");
 $mailer->setSubject("$fname $lname, $company");
 $mailer->addTo("sudobytesolutions@sudobyte.com");
@@ -30,7 +30,7 @@ try {
     echo 'Caught exception: '. $e->getMessage() ."\n";
 
 
-}
+} */
 
 
 
