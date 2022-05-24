@@ -29,7 +29,7 @@
 #header ul{
   margin-right: 2%;
 }
-#processes{
+#process{
   background-color: #F6F6F6;
   margin-top: 1%;
 }
@@ -87,13 +87,13 @@
   background-color:#FF792C;
 }
 .lmbtn{
-  margin-top: 17%;
+  margin-top: 0%;
 }
 .osbtn{
   /* margin-top: 5%; */
 }
 .probtn{
-  margin-top: 16%;
+  margin-top: 17%;
 }
 
 .users{
@@ -118,6 +118,7 @@
   width: 80% !important;
   border-radius: 2%;
 }
+
 
 #test{
   max-width:100%;
@@ -184,6 +185,11 @@ transform: translate(-50%, -50%);
 .service1{
   background-color:white;
 }
+.contents_p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .noahbox2{
   margin-top: -16px;
   font-size: 15px;
@@ -202,7 +208,7 @@ margin-right:5%;
   height:70vh;
 }
 .paragraph{
-  margin-left: 15%;
+  margin: 0 5% 0 5%;
 }
 
 .servicesPicture{
@@ -221,4 +227,16 @@ margin-right:5%;
 .aboutustxt{
   margin-right: 10%;
   margin-left: 10%;
+}
+
+#contact{
+  margin-top: 10%;
+}
+
+#contact .btn{
+  font-size: 4vh;
+}
+#contact .btn a{
+  text-decoration: none;
+  color: white
 }
